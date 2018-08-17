@@ -1,0 +1,246 @@
+/* body{
+	font-family: 'Amaranth', 'sans-serif';
+	font-size: 16px;
+	color: #776E65;
+	background-color: #FAF8EF;
+} */
+/* #content{
+	width: 100%;
+	margin: 0 auto;
+}
+#game{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+#game h1{
+	font-size: 3em;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0px 20px 0px;
+} */
+/* #content_board{
+	text-align: center;
+}
+#board{
+	width: auto;
+	position: relative;
+	padding: 3px 0px 0px 3px;
+} */
+/* #board .row{
+	padding: 0px;
+	width: 100%;
+}
+
+#board .row .cell{
+	margin: -3px;
+	padding: 0px;
+	height: 42px;
+	width: 42px;
+	display: inline-block;
+	position: relative;
+}
+#board .row .cell:hover{
+	box-shadow: inset;0px 0px 6px green,
+				inset;0px 0px 2px green,
+				inset;0px 0px 15px green;
+}
+#board .row .cell img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#board .row .white{
+	background: rgb(246,230,180);
+	background: -moz-linear-gradient(45deg, rgba(246,230,180, .5));
+	background: -webkit-gradient(linear, left botton, right botton);
+	background: -webkit-gradient(45deg,  rgba(246,230,180, .5));
+	background: -o-linear-gradient(45deg,  rgba(246,230,180, .5));
+	background: -ms-linear-gradient(45deg,  rgba(246,230,180, .5));
+	background: linear-gradient(45deg,  rgba(246,230,180, 1) 0%);
+	filter: progid:DXImageTranform.Microsoft.gradient(st);
+}
+
+
+#board .row .black{
+	background: rgb(81,66,0);
+	background: -moz-linear-gradient(45deg, rgba(81, 66, 0, .5));
+	background: -webkit-gradient(linear, left botton, right botton);
+	background: -webkit-gradient(45deg,  rgba(81, 66, 0, .5));
+	background: -o-linear-gradient(45deg,  rgba(81, 66, 0, .5));
+	background: -ms-linear-gradient(45deg,  rgba(81, 66, 0, .5));
+	background: linear-gradient(45deg,  rgba(81, 66, 0, 1) 0%);
+	filter: progid:DXImageTranform.Microsoft.gradient(st);
+} */
+/* #rules{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#rules .info{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+#rules p{
+	width: 90%;
+	margin-left: 5%;
+}
+#rules p.contact{
+	text-align: center;
+}
+#rules p a{
+	color: #423327;
+}
+#title{
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#title div.twitter{
+	margin: 20px 0px;
+}
+#title .score{
+	text-align: center;
+	margin-top: 30px;
+	position: relative;
+} */
+/* #title #scores #meter_bonus{
+	border: 1px solid #A40D0D;
+	position: absolute;
+	height: 10px;
+
+}
+ */
+#title #scores .score #time{
+	text-align: left;
+	padding-left: 10px;
+}
+#title #scores #level_center{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	font-size: 2.5em;
+}
+#title #scores #score_level{
+	background-color: #1B190F;
+	color: #FAF8EF;
+	width: 100%;
+	margin: 1em;
+	padding: 0px;
+	display: block;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+}
+#title #scores #score_level p{
+	padding: .5em 0 .3em 0;
+	margin: 0;
+}
+
+#title #scores .score #move,
+#title #scores .score #time,
+#title #scores .score #lifes,
+#title #scores .score #global_options{
+	font-size: 2em;
+	margin: -20px 0px 0px 0px;
+}
+
+#title #scores #moves,
+#title #scores #times,
+#title #scores #options,
+#title #scores #score_lifes{
+  	float: left; 
+	display: block; 
+	background-color: #A0A0A0FF;
+	border-radius: 20px 20px 20px 20px;
+	width: 15%;
+	height: 100px;
+	padding: 10px;
+	color: white;
+	font-size: 1.3em;
+	margin: 0 10px 0 10px;
+}
+
+#tablero{
+	text-align: center;
+	width: 70%;
+	margin-left: 25%;
+}
+ 
+#title #scores #score_lifes{
+	background-color: #A40D0D;
+	color: white;
+	font-size: 1.3em;
+} 
+
+#title #scores #options #meter_bonus{
+	width: 80%;
+	height: 2px;
+	margin-top: -20px;
+	text-align: center;
+	background-color: #A40D0D;
+}
+
+/* 
+#message{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(250,248,239,0.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	display: none; block
+}
+#message #share_panel{
+	display: block;
+}
+#message div.share{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#message div#tweet_game{
+	color: rgb(250,248,239);
+	background-color: #1B190F;
+	padding: 10px 0px 20px 0px;
+	border-radius: 0px 0px 20px 20px;
+	margin-top: -45px;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+}
+
+#message div#tweet_game #tweet_center{
+	text-align: center;
+}
+
+#message p#button{
+	font-size: 2.5em;
+	font-weight: bolder;
+	background-color: #1B190F;
+	border-radius: 20px 20px 0px 0px;
+	color: rgb(250,248,239);
+	margin-top: -50px;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	line-height: 80px;
+}
+
+#message p#button:hover{
+	cursor: pointer;
+}
+#message p#data_message{
+	font-size: 4em;
+	font-weight: bolder;
+	color: #1B190F;
+	margin-top: -50px;
+
+} */
